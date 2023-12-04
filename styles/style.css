@@ -1,0 +1,68 @@
+/* snippet taken from GPT, collage 4 images in center of screen */
+#img-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+#img-container img {
+    width: 150px;
+    height: 150px;
+    height: auto; /* Maintain the aspect ratio */
+    margin: 5px;
+    margin-top: 150px;
+}
+
+#copyrights {
+    text-align: center;
+    margin-top: 150px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+body {
+    background-image: url('https://wibonela.files.wordpress.com/2013/09/light-wooden-background2.jpg?w=1620');
+    direction: rtl
+}
+
+h1 {
+    text-align: center;
+    color:brown;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+
+}
+
+hr {
+    margin: 0; /* Removes default margin */
+    color: white;
+    background-color: white;
+    border-top: 2px solid white;
+    border-bottom: none;
+}
+
+
+.welcome-text {
+    text-align: center;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.login-table {
+    border: solid;
+    font-size: x-large;
+    margin-top: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: yellow;
+}
+
+input[type="submit"] {
+    background-color: rgb(184,218,231);
+    margin-right: 100px;
+}
